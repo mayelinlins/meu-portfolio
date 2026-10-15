@@ -170,14 +170,12 @@ section #cabecalho div h1 {
 }
 /* Aqui dentro está o rodapé - ok*/
 footer {
-
   padding: 30px;
   border-radius: 15px;
   width: 90%;
   max-width: 1200px;
   margin: 20px auto;
   box-sizing: border-box;
-
 }
 
 /* Aqui dentro está a linha que divide cada seção*/
@@ -186,7 +184,7 @@ section {
   max-width: 1200px;
   margin: 20px auto;
   box-sizing: border-box;
-background: rgba(41, 41, 46, 0.78);
+  background: rgba(41, 41, 46, 0.78);
   border: 1px solid rgba(255, 255, 255, 0.14);
   border-radius: 15px;
   backdrop-filter: blur(14px);
@@ -201,8 +199,8 @@ background: rgba(41, 41, 46, 0.78);
 
 /* Aqui dentro estão as seções separadas, tudo ao redor das seçoes em cinza*/
 #cabecalho {
- box-sizing: border-box;
-background: rgba(41, 41, 46, 0.78);
+  box-sizing: border-box;
+  background: rgba(41, 41, 46, 0.78);
   border: 1px solid rgba(255, 255, 255, 0.14);
   border-radius: 15px;
   backdrop-filter: blur(14px);
@@ -240,4 +238,10 @@ background: rgba(41, 41, 46, 0.78);
 #conhecimento {
   padding: 30px;
   border-radius: 15px;
+}
+
+#contato i {
+  color: #8c9eff;
+  font-size: 22px;
+  margin-right: 10px;
 }
